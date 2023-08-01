@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: black;
+}
+.div1 {
+    background: aqua;
+    height: auto;
+    width: auto;
+    display: grid;
+    justify-content: center;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: #ffff;
+}
+
+button {
+    box-shadow: 0 0 5px cyan, 0 0 25px cyan;
+    color: black;
+    font-weight: 300;
+    font-size: 25px;
+    border: 1px solid cyan;
+    background-color: aqua;
+    padding-left: 10px;
+    padding-right: 10px;
+   display: block;
+   margin: auto;
+   margin-top: 70px;
+}
+
+button:hover {
+    box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan, 0 0 200px cyan;
+}
+
+a{
+    text-decoration: none;
+}
